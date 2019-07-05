@@ -1,0 +1,374 @@
+@charset "utf-8";
+html{
+    font: 12px "宋体";
+}
+a{
+    color: #000;
+}
+.top{
+    background-color: #f7f7f7;
+    height: 30px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.top_page{
+    width: 970px;
+    height: 30px;
+    margin: 0 auto;    /* 左右居中 */
+}
+.top_page_l{
+    line-height: 30px;   /* 上下居中 */
+}
+.top_page_r ul li{
+    float: left;
+    line-height: 30px;
+    padding-right: 10px;
+}
+.top_page_r ul li s{
+    width: 14px;
+    height: 12px;
+    background: url(../image/sprite.png);
+    display: inline-block;
+    vertical-align: middle;  /* 精灵图与文字居中 */
+}
+.logo{
+    width: 970px;
+    height: 100px;
+    margin: 0 auto;
+}
+.logo_l{
+    width: 200px;
+    height: 54px;
+    margin: 24px 0px 22px 10px;
+    background: url(../image/sprite.png) 0px -12px;
+    text-indent: -1000em;    /* 使文字不显示在网页上，仅供程序员自己看 */
+}
+.logo_r{
+    width: 531px;
+    height: 42px;
+    margin-top: 30px;
+    background-color: #F0F0F0;
+    border: 1px solid #c8c8c8;
+}
+.logo_r_search{
+    width: 421px;
+    height: 28px;
+    border: 1px solid #A5A5A5;
+    margin: 6px 0px 5px 4px;
+    color: #696969;
+}
+.logo_r_bth{
+    width: 100px;
+    height: 30px;
+    background-color: #3270CF;
+    margin: 6px 1px 5px 0px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    /* font: 400 20px #FEFEFE; */
+}
+.nav{
+    width:970px;
+    height: 30px;
+    margin: 0 auto;
+    border-bottom: 2px solid #0666A1;
+}
+.nav li{
+    float: left;
+    padding: 0px 22px 0px 22px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #316BB4;   /* 这句话没用，因为a标签无法继承li标签文本颜色 */
+    font-size: 12px;
+}
+.nav li a{
+    color: #316BB4; 
+    margin: 0 auto;
+}
+.nav li:hover{
+    background-color: #0666A1;
+}
+.nav li:hover a {
+    color: white;
+}
+.banner{
+    width: 970px;
+    height: 235px;
+    margin: 0 auto;
+}
+.subNav{
+    width: 200px;
+    height: 210px;
+    background-color: #EAEFF5;
+    margin: 8px 50px 13px 0px;
+}
+.ad{
+    width: 453px;
+    height: 194px;
+    background: url(../image/sprite.png) 0px -126px;
+    margin-top: 26px; 
+}
+.message{
+    width: 230px;
+    height: 210px;
+    margin-top: 10px;
+}
+.subNav h2{
+    padding-left: 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #0666A1;
+}
+.subNav .s1{
+    display: inline-block;
+    width: 18px;
+    height: 15px;
+    background: url(../image/sprite.png) 0px -66px;
+}
+.subNav .s2{
+    display: inline-block;
+    width: 18px;
+    height: 15px;
+    background: url(../image/sprite.png) 0px -81px;
+}
+.subNav .s3{
+    display: inline-block;
+    width: 21px;
+    height: 14px;
+    background: url(../image/sprite.png) 0px -96px;
+}
+.subNav .s4{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../image/sprite.png) 0px -110px;
+}
+.subNav li{
+    font-size: 14px;
+    padding: 12px 0px 0px 13px;
+    /* height: 30px; */
+}
+.subNav li a{
+    padding-left: 12px;
+}
+.subNav li a:hover{
+    color: #4198CE;
+}
+.message_top{
+    width: 228px;
+    height: 95px;
+    background-color: #F6F9FE;
+    border: 1px solid #DCDCDC;
+}
+.message_bottom{
+    width: 230px;
+    height: 105px;
+    background-color: #F6F6F6;
+    margin: 10px 0px 0px 0px;
+}
+.message_top s{
+    display: inline-block;
+    width: 40px;
+    height: 41px;
+    background: url(../image/sprite.png) 0px -320px;
+    margin: 14px 0px 0px 10px;
+}
+.message_top .fw{
+    font-size: 12px;
+    color: #656565;
+    font-weight: bold;
+    margin: 12px 0px 0px 14px;
+}
+.message_top .fj{
+    margin: 20px 0px 0px 9px;
+    color: #656565;
+    font-size: 12px;
+    line-height: 20px;
+}
+.message_bottom .findMessage{
+    text-align: center;
+    font-size: 15px;
+    color: #989898;
+    padding-top: 18px;
+}
+.message_bottom .phone{
+    text-align: center;
+    font-size: 12px;
+    color: #6AB1E5;
+    font-weight: bold;
+    padding-top: 12px;
+}
+.message_bottom .btn{
+    width: 81px;
+    height: 23px;
+    background: url(../image/sprite.png) 0px -361px;
+    margin: 8px 0px 0px 74px;;
+}
+.food{
+    width: 950px;
+    height: 36px;
+    border-top: 2px solid #C2D5E3;
+    background-color: #EBF0F6;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: bold;
+    color: #656565;
+    line-height: 36px;
+    padding-left: 20px;
+}
+.buyFood {
+    width: 970px;
+    height: 380px;
+    margin: 0 auto;
+}
+.buyFood .foodProduct{
+    width: 720px;
+    height: 350px;
+    border: 1px solid #CBCBCB;
+    margin-top: 13px;
+}
+.buyFood .foodMessage{
+    width: 230px;
+    height: 350px;
+    border: 1px solid #CBCBCB;
+    margin-top: 13px;
+}
+.buyNow{
+    text-align: center;
+    width: 98px;
+    height: 26px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #1184E0;
+}
+.buyFood .foodProduct .s1{
+    display: inline-block;
+    width: 100px;
+    height: 110px;
+    background: url(../image/sprite.png) -560px 0px;
+}
+.buyFood .foodProduct .s2{
+    display: inline-block;
+    width: 100px;
+    height: 110px;
+    background: url(../image/sprite.png) -560px -110px;
+}
+.buyFood .foodProduct .s3{
+    display: inline-block;
+    width: 100px;
+    height: 110px;
+    background: url(../image/sprite.png) -560px -220px;
+}
+.buyFood .foodProduct .s4{
+    display: inline-block;
+    width: 100px;
+    height: 110px;
+    background: url(../image/sprite.png) -560px -330px;
+}
+.buyFood .foodProduct s{
+    margin: 25px 20px 30px 16px;
+}
+.buyFood .foodProduct h3{
+    font-size: 12px;
+    color: #323232;
+    padding-bottom: 4px;
+}
+.buyFood .foodProduct p{
+    font-size: 12px;
+    color: #CB6506;
+    line-height: 22px;
+}
+.buyFood .foodProduct .textIntroduce{
+    padding-top: 30px;
+    padding-right: 37px;
+}
+.buyFood .foodMessage h3{
+    font-size: 12px;
+    color: #656565;
+    padding: 13px 0px 12px 10px;
+    border-bottom: 1px solid #CBCBCB;
+}
+.buyFood .foodMessage ul{
+    width: 221px;
+    height: 70px;
+    margin-top: 18px;
+    margin-left: 9px;
+}
+.buyFood .foodMessage ul li{
+    list-style-type: square;
+    padding: 0px 0px 13px 2px;
+    margin-left: 19px;
+}
+.people{
+    width: 970px;
+    height: 333px;
+    margin: 0 auto;
+}
+.people_fl{
+    width: 720px;
+    height: 300px;
+    border: 1px solid #CBCBCB;
+    margin-top: 13px;
+}
+.people_fr{
+    width: 230px;
+    height: 309px;
+    margin-top: 13px;
+    background: url(../image/sprite.png) 0px -384px;
+}
+.people .people_fl .people_s1{
+    display: inline-block;
+    width: 164px;
+    height: 170px;
+    background: url(../image/sprite.png) 0px -693px;
+}
+.people .people_fl .people_s2{
+    display: inline-block;
+    width: 164px;
+    height: 170px;
+    background: url(../image/sprite.png) -164px -693px;
+}
+.people .people_fl li{
+    text-align: center;
+    margin: 10px 0px 0px 13px;
+}
+.people_fl p{
+    color: #656565;
+    padding-top: 9px;
+}
+.people .people_fl span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #B20000;
+}
+.link{
+    width: 970px;
+    height: 40px;
+    margin: 0 auto;
+    border-top: 1px solid #CBCBCB;
+    border-bottom: 3px solid #0E7EC1;
+    margin-top: 11px;
+}
+.link_p1{
+    font-size: 12px;
+    padding: 12px 0px 16px 0px;
+}
+.link_p1 a{
+    color: #5F5F5F;
+}
+.link_p1 a:hover{
+    color: #1184E0;
+}
+.aboutUs{
+    width: 970px;
+    height: 48px;
+    margin: 0 auto;
+    color: #656565;
+}
+.aboutUs p{
+    margin-top: 12px;
+    text-align: center;
+}
